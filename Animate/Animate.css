@@ -1,0 +1,7 @@
+/*.group-img img{
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: bounceOut; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+}

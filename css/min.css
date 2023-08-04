@@ -1,0 +1,81 @@
+:root{
+    --color-primary:#381f17;
+    --font-family: 'Satisfy';
+}
+.body{
+    box-sizing: border-box;
+    font-family: Raleway;
+    font-size: 13px;
+    color: #f3f1dc;
+    background-color:var(--color-primary);
+    width:auto;
+    height: 100%;
+}
+h2 {
+    font-family: var(--font-family);
+    font-size: 24px;
+}
+.bg-body-tertiary{
+    background-color:var(--color-primary)!important;
+}
+p.logo{
+    color: white;
+    width: 150px;
+    font-size: 32px;
+    padding-top: 10px;
+    padding-left: 40px;
+    font-family: 'Satisfy';
+}
+.nav-link{
+    color: white;
+    font-size: 13px;
+}
+div.icon{
+    color: white;
+    margin-top: 4px;
+    margin-left: 15px;
+}
+div.icon svg{
+    margin-right: 15px;
+}
+.primary{
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/image_2445140.jpg);
+    background-size: cover;
+}
+.card-title{
+    font-family: 'Satisfy';
+    color: white;
+    font-size: 64px;
+    font-weight: 400;
+}
+.card-body{
+    font-size: 14px;
+    color: rgb(252, 250, 250);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    position: absolute;
+    margin-top: 20%;
+    background-color: #f5deb300;
+    width: 100%;
+    flex-direction: column;
+}
+.info{
+    width:calc(100%-35%);
+    height: 400px;
+    background-color: blue;
+}
+.container-fluid {
+    height: auto;
+    background:var(--color-primary);
+    color: white;
+    flex-wrap: nowrap;
+}
+.group-img img{
+    padding: 40px;
+}
+
+.group-img img:hover {
+    padding: 60px;
+}
