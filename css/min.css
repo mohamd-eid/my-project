@@ -43,6 +43,8 @@ div.icon svg{
     height: 600px;
     background-image: url(../img/image_2445140.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 .card-title{
     font-family: 'Satisfy';
